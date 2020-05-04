@@ -1,0 +1,121 @@
+{
+  "main": {
+    "name": "Adorján Szász",
+    "occupation": "Software Engineer",
+    "description": "ABAPer by heart, exploring the AWS territory. Looking for a technical leadership role within a dynamic company",
+    "image": "profilepic.jpg",
+    "bio": "I am a coder having 5+ years' experience working on long-term projects for major players in the automotive industry. In my spare time I am studying for the AWS Solution Architect certificate, as well as to getting proficient in the new SAP Cloud Application Programming Model. I love keeping things balanced. I often get told, that I bring a scent of harmony into the room. My normal resting heart rate is 41 bpm.",
+    "contactmessage": "Let's catch up for a virtual coffee and talk about your perspectives, as well as my expertise, and how we can drive your goals to success together.",
+    "email": "ador.szasz@gmail.com",
+    "phone": "+49 173 2855636",
+    "address": {
+      "street": "1 Hamburger Street",
+      "city": "Munich",
+      "state": "BY",
+      "zip": "80809 Germany"
+    },
+    "website": "http://adorjan-szasz.github.io",
+    "resumedownload": "https://drive.google.com/file/d/1SEqoZUbfWo6G8SEf4o8uzj3bPCqf3h8i/view?usp=sharing",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/szasz-adorjan/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/adorjanszasz",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/adorjanszasz",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "Babes-Bolyai University, Cluj-Napoca, Romania",
+        "degree": "Master’s Degree in Enterprise Software Design and Development",
+        "graduated": "Oct 2015 - Jul 2017 (Thesis pending)"
+      },
+      {
+        "school": "Babes-Bolyai University, Cluj-Napoca, Romania",
+        "degree": "Bachelor’s Degree in Computer Science",
+        "graduated": "Oct 2012 - Jul 2015"
+      }
+    ],
+    "work": [
+      {
+        "company": "msg systems ag - Munich, DE",
+        "title": "Senior SAP-ABAP Software Engineer",
+        "years": "Jan 2019 - Present",
+        "description": "SAP ERP/DIMP 6.0 consulting with a focus on: agile full-stack custom development; refactoring several modules with high criticality; delivery of the first SAP Fiori applications; maintenance (3rd Level Support); oversight of nearshore & offshore development;"
+      },
+      {
+        "company": "msg systems Romania - Cluj-Napoca, RO",
+        "title": "SAP-ABAP Software Engineer",
+        "years": "Mar 2015 - Jan 2019",
+        "description": "SAP ERP/DIMP 6.0 and S4/HANA consulting with a focus on: agile full-stack custom development; maintenance (3rd Level Support); onboarding and mentoring junior developers;"
+      },
+      {
+        "company": "msg systems Romania - Cluj-Napoca, RO",
+        "title": "Associate Java Developer",
+        "years": "Aug 2014 - Mar 2015",
+        "description": "JEE development with a focus on: getting familiar with the software development life cycle; front-End development; waterfall model;"
+      },
+      {
+        "company": "msg systems Romania - Cluj-Napoca, RO",
+        "title": "Java Trainee - Internship Program",
+        "years": "Jul 2014 - Aug 2014",
+        "description": "JEE development with a focus on: learning the basics, working in team;"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ABAP",
+        "level": "100%"
+      },
+      {
+        "name": "Fiori",
+        "level": "96%"
+      },
+      {
+        "name": "SAP Hana",
+        "level": "96%"
+      },
+      {
+        "name": "UI5 / Javascript",
+        "level": "70%"
+      },
+      {
+        "name": "JAVA",
+        "level": "60%"
+      },
+      {
+        "name": "AWS",
+        "level": "40%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://adorjan-szasz.github.io"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "-",
+        "user": "-"
+      }
+    ]
+  }
+}
