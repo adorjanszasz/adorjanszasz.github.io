@@ -1,6 +1,5 @@
 {
-  "homepage": "/",
-  "name": "adorjanszasz.github.io",
+  "homepage": "adorjanszasz.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,11 +10,12 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "yarn": "^1.22.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
