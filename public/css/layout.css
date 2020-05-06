@@ -24,6 +24,33 @@
 
 body {
   background: #0f0f0f;
+  margin: 0;
+}
+
+canvas {
+  display: block;
+}
+
+/* Particle background */
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Particle background */
+#tsparticles {
+  background: linear-gradient(
+    38deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(43, 73, 75, 1) 99%
+  );
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 /* ------------------------------------------------------------------ */
@@ -35,9 +62,8 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  /*   background: #161415 url(../images/header-background.jpg) no-repeat top center; */
-  background-color: #2f2d2e;
   background-size: cover !important;
+  background-repeat: no-repeat;
   -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
@@ -50,6 +76,7 @@ header:before {
   vertical-align: middle;
   height: 100%;
 }
+
 header .banner {
   display: inline-block;
   vertical-align: middle;
@@ -57,6 +84,8 @@ header .banner {
   width: 85%;
   padding-bottom: 30px;
   text-align: center;
+  z-index: 1;
+  position: relative;
 }
 
 header .banner-text {
@@ -103,7 +132,7 @@ header .social li a {
   color: #fff;
 }
 header .social li a:hover {
-  color: #11abb0;
+  color: crimson;
 }
 
 /* scrolldown link */
@@ -120,6 +149,7 @@ header .scrolldown a {
   line-height: 42px;
   color: #fff;
   border-radius: 100%;
+  z-index: 100;
 
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -127,7 +157,7 @@ header .scrolldown a {
   transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
-  color: #11abb0;
+  color: crimson;
 }
 
 /* primary navigation
@@ -198,7 +228,7 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #f06000;
+  color: crimson;
 }
 
 /* ------------------------------------------------------------------ */
@@ -218,7 +248,7 @@ ul#nav li.current a {
 }
 #about a:hover,
 #about a:focus {
-  color: #11abb0;
+  color: crimson;
 }
 
 #about h2 {
@@ -232,8 +262,8 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 170px;
+  height: 170px;
   border-radius: 100%;
 }
 #about .contact-details {
@@ -272,7 +302,7 @@ ul#nav li.current a {
 
 #resume a,
 #resume a:visited {
-  color: #11abb0;
+  color: crimson;
 }
 #resume a:hover,
 #resume a:focus {
@@ -285,7 +315,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
 }
 #resume h1 span {
-  border-bottom: 3px solid #11abb0;
+  border-bottom: 3px solid crimson;
   padding-bottom: 6px;
 }
 #resume h3 {
@@ -889,7 +919,7 @@ call-to-action .button {
 
 #contact a,
 #contact a:visited {
-  color: #11abb0;
+  color: crimson;
 }
 #contact a:hover,
 #contact a:focus {
@@ -959,7 +989,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
   color: #fff;
-  background-color: #11abb0;
+  background-color: crimson;
 }
 #contact button.submit {
   text-transform: uppercase;
@@ -978,7 +1008,7 @@ call-to-action .button {
   background: #fff;
 }
 #contact span.required {
-  color: #11abb0;
+  color: crimson;
   font-size: 13px;
 }
 #message-warning,
@@ -994,7 +1024,7 @@ call-to-action .button {
   color: #d72828;
 }
 #message-success {
-  color: #11abb0;
+  color: crimson;
 }
 
 #message-warning i,

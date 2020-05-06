@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Background from "./Background";
 
 class Header extends Component {
   render() {
@@ -52,7 +53,7 @@ class Header extends Component {
           </ul>
         </nav>
 
-        <div className="row banner">
+        <div className="row banner" id="head-text">
           <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
             <h3>
@@ -68,6 +69,9 @@ class Header extends Component {
             <i className="icon-down-circle"></i>
           </a>
         </p>
+        <div className="background">
+          <Background></Background>
+        </div>
       </header>
     );
   }
