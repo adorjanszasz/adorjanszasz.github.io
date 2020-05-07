@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "jquery": "^3.5.0",
     "react": "^16.13.1",
+    "react-animation": "^1.2.2",
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
     "react-particles-js": "^3.2.1",
