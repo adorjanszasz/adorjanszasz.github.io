@@ -1,27 +1,13 @@
 import React, { Component } from "react";
-import { AnimateOnChange } from "react-animation";
+import Typical from "react-typical";
 
 class HeaderText extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      current: 0,
+      loops: 1,
       words: props.data || [],
     };
-  }
-
-  tick() {
-    if (this.state.current === this.props.data.length - 1) {
-      // stop there
-    } else {
-      this.setState((state) => ({
-        current: state.current + 1,
-      }));
-    }
-  }
-
-  componentDidMount() {
-    this.interval = setInterval(() => this.tick(), 3000);
   }
 
   componentDidUpdate() {
@@ -37,21 +23,11 @@ class HeaderText extends Component {
 
   render() {
     return (
-      <div>
-        <h1>
-          <AnimateOnChange
-            animationIn="bounceIn"
-            animationOut="bounceOut"
-            durationOut={3000}
-          >
-            <div className="container">
-              <div className="text-width-wrapper">
-                <div>{this.state.words[this.state.current]}</div>
-              </div>
-            </div>
-          </AnimateOnChange>
-        </h1>
-      </div>
+      <Typical
+        steps={this.state.words}
+        loop={this.state.loops}
+        wrapper="h1"
+      ></Typical>
     );
   }
 }

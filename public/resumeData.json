@@ -1,6 +1,6 @@
 {
   "main": {
-    "cheers": ["Welcome", "I'm Adorján Szász."],
+    "cheers": ["Welcome", 2000, "I'm Adorján Szász", 1000],
     "occupation": "Software Engineer",
     "description": "ABAPer by heart, exploring the AWS territory",
     "image": "profilepic.jpg",
