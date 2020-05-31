@@ -67,6 +67,10 @@
     padding-right: 5%;
   }
 
+  #resume .main-col-flex {
+    flex-grow: 1;
+  }
+
   /* Testimonials Section
    ------------------------------------------------------------------- */
   #testimonials .header-col h1:before {
@@ -228,7 +232,11 @@
   /* About Section
    -------------------------------------------------------------------- */
   #about .profile-pic {
-    display: none;
+    height: 60%;
+    width: 60%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px 20px;
   }
   #about .download .button {
     width: 100%;
@@ -252,6 +260,10 @@
   #resume .main-col {
     padding-right: 30px;
   }
+  #resume .main-col-flex {
+    flex-grow: 1;
+  }
+
   #resume h3,
   #resume .info {
     text-align: center;

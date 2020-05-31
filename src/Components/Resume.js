@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import { PieChart } from "react-minimal-pie-chart";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 class Resume extends Component {
   render() {
     if (this.props.data) {
-      var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function (education) {
         return (
           <div key={education.degree}>
@@ -29,15 +30,8 @@ class Resume extends Component {
           </div>
         );
       });
-      var skills = this.props.data.skills.map(function (skills) {
-        var className = "bar-expand " + skills.name.toLowerCase();
-        return (
-          <li key={skills.name}>
-            <span style={{ width: skills.level }} className={className}></span>
-            <em>{skills.name}</em>
-          </li>
-        );
-      });
+      var skillsSoft = this.props.data.skillsSoft;
+      var skillsTech = this.props.data.skillsTech;
     }
 
     return (
@@ -69,16 +63,58 @@ class Resume extends Component {
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
-              <span>Skills</span>
+              <span>Top skills</span>
             </h1>
           </div>
 
-          <div className="nine columns main-col">
-            <p>{skillmessage}</p>
-
-            <div className="bars">
-              <ul className="skills">{skills}</ul>
-            </div>
+          <div className="twelve columns main-col">
+            <MDBContainer>
+              <MDBRow center>
+                <MDBCol>
+                  <MDBRow center></MDBRow>
+                </MDBCol>
+                <MDBCol size="sm">
+                  <PieChart
+                    data={skillsTech}
+                    lineWidth={25}
+                    paddingAngle={2}
+                    rounded
+                    label={({ dataEntry }) => dataEntry.title}
+                    labelStyle={(index) => ({
+                      fill: skillsTech[index].color,
+                      fontSize: "4px",
+                      fontFamily: "opensans-bold",
+                    })}
+                    radius={42}
+                    labelPosition={112}
+                    style={{
+                      height: "300px",
+                    }}
+                    animate
+                  />
+                </MDBCol>
+                <MDBCol size="sm">
+                  <PieChart
+                    data={skillsSoft}
+                    lineWidth={25}
+                    paddingAngle={2}
+                    rounded
+                    label={({ dataEntry }) => dataEntry.title}
+                    labelStyle={(index) => ({
+                      fill: skillsSoft[index].color,
+                      fontSize: "4px",
+                      fontFamily: "opensans-bold",
+                    })}
+                    radius={42}
+                    labelPosition={112}
+                    style={{
+                      height: "300px",
+                    }}
+                    animate
+                  />
+                </MDBCol>
+              </MDBRow>
+            </MDBContainer>
           </div>
         </div>
       </section>

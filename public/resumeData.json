@@ -2,9 +2,9 @@
   "main": {
     "cheers": ["Welcome", 2000, "I'm Adorján Szász", 1000],
     "occupation": "Software Engineer",
-    "description": "ABAPer by heart, exploring the AWS territory",
+    "description": "ABAPer by heart, DevOps-ready, exploring the AWS territory",
     "image": "profilepic.jpg",
-    "bio": "I am a coder having 5+ years' experience working on long-term projects for major players in the automotive industry. In my spare time I am studying for the AWS Solution Architect certificate, as well as to getting proficient in the new SAP Cloud Application Programming Model. I love keeping things balanced. I often get told, that I bring a scent of harmony into the room. My normal resting heart rate is 41 bpm.",
+    "bio": "I am a coder having 5+ years' experience working on long-term projects for major players in the automotive industry. Currently preparing for the AWS Solution Architect certification, as well as to getting proficient in the new SAP Cloud Application Programming Model. I love keeping things balanced. I often get told, that I bring a scent of harmony into the room. My normal resting heart rate is 41 bpm.",
     "contactmessage": "Let's catch up for a virtual coffee and talk about your perspectives, as well as my expertise, and how we can drive your goals to success together.",
     "email": "ador.szasz@gmail.com",
     "phone": "+49 173 2855636",
@@ -36,6 +36,11 @@
   },
   "resume": {
     "education": [
+      {
+        "school": "Udacity",
+        "degree": "Cloud DevOps Engineer Nanodegree Program",
+        "graduated": "May 2020"
+      },
       {
         "school": "Babes-Bolyai University, Cluj-Napoca, Romania",
         "degree": "Master’s Degree in Enterprise Software Design and Development",
@@ -73,30 +78,68 @@
         "description": "JEE development with a focus on: learning the basics, working in team;"
       }
     ],
-    "skills": [
+    "skillsTech": [
       {
-        "name": "ABAP",
-        "level": "100%"
+        "title": "ABAP",
+        "value": 100,
+        "color": "#e60000"
       },
       {
-        "name": "Fiori",
-        "level": "96%"
+        "title": "Fiori",
+        "value": 96,
+        "color": "#cc0000"
       },
       {
-        "name": "SAP Hana",
-        "level": "96%"
+        "title": "SAP Hana",
+        "value": 96,
+        "color": "#b30000"
       },
       {
-        "name": "UI5 / Javascript",
-        "level": "70%"
+        "title": "UI5 / Javascript",
+        "value": 70,
+        "color": "#990000"
       },
       {
-        "name": "JAVA",
-        "level": "60%"
+        "title": "AWS",
+        "value": 65,
+        "color": "#800000"
       },
       {
-        "name": "AWS",
-        "level": "40%"
+        "title": "JAVA",
+        "value": 60,
+        "color": "#660000"
+      },
+      {
+        "title": "Others",
+        "value": 30,
+        "color": "#4d0000"
+      }
+    ],
+    "skillsSoft": [
+      {
+        "title": "Adaptability",
+        "value": 96,
+        "color": "#e60000"
+      },
+      {
+        "title": "Focus",
+        "value": 96,
+        "color": "#cc0000"
+      },
+      {
+        "title": "Harmony",
+        "value": 96,
+        "color": "#b30000"
+      },
+      {
+        "title": "Positivity",
+        "value": 96,
+        "color": "#660000"
+      },
+      {
+        "title": "Responsibility",
+        "value": 96,
+        "color": "#4d0000"
       }
     ]
   },
