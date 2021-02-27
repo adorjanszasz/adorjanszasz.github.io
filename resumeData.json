@@ -1,18 +1,19 @@
 {
   "main": {
     "cheers": ["Welcome", 2000, "I'm Adorján Szász", 1000],
-    "occupation": "Software Engineer",
-    "description": "ABAPer by heart, DevOps-ready, exploring the AWS territory",
+    "occupation": "Senior Software Engineer",
+    "description": "ABAPer by heart, DevOps-ready, Cloud enthusiast, Mentor",
     "image": "profilepic.jpg",
-    "bio": "I am a coder having 5+ years' experience working on long-term projects for major players in the automotive industry. Currently preparing for the AWS Solution Architect certification, as well as to getting proficient in the new SAP Cloud Application Programming Model. I love keeping things balanced. I often get told, that I bring a scent of harmony into the room. My normal resting heart rate is 41 bpm.",
-    "contactmessage": "Let's catch up for a virtual coffee and talk about your perspectives, as well as my expertise, and how we can drive your goals to success together.",
+    "bio": "I am a coder and having 6+ years' experience working previously as a consultant on long-term projects for major players in the automotive industry. Currently contributing to the rise of SAP Digital Supply Chain as in-house developer. I love keeping things balanced. I often get told, that I bring a scent of harmony into the room.",
+    "contactmessage": "Let's catch up for a virtual coffee and talk about your perspectives. Open for small-term projects, Q&As and 1-on-1 mentoring sessions.",
     "email": "ador.szasz@gmail.com",
-    "phone": "+49 173 2855636",
+    "phone": "+49 1520 3038451",
     "address": {
-      "street": "1 Hamburger Street",
-      "city": "Munich",
+      "street": "1 Marienstr.",
+      "city": "Hallbergmoos",
       "state": "BY",
-      "zip": "80809 Germany"
+      "zip": "85399 Germany",
+      "titleCity": "Munich"
     },
     "website": "http://adorjan-szasz.github.io",
     "resumedownload": "https://drive.google.com/file/d/1SEqoZUbfWo6G8SEf4o8uzj3bPCqf3h8i/view?usp=sharing",
@@ -54,28 +55,34 @@
     ],
     "work": [
       {
+        "company": "SAP SE - Hallbergmoos, DE",
+        "title": "Senior Developer",
+        "years": "Nov 2020 - Present",
+        "description": "S4/HANA On-Premise and Cloud in-house development focusing on: processes in the area of Logistics Execution | SAP Digital Supply Chain; customer support; mentorship;"
+      },
+      {
         "company": "msg systems ag - Munich, DE",
         "title": "Senior SAP-ABAP Software Engineer",
         "years": "Jan 2019 - Present",
-        "description": "SAP ERP/DIMP 6.0 consulting with a focus on: agile full-stack custom development; refactoring several modules with high criticality; delivery of the first SAP Fiori applications; maintenance (3rd Level Support); oversight of nearshore & offshore development;"
+        "description": "SAP ERP/DIMP 6.0 consulting with focus on: agile full-stack custom development; refactoring several modules with high criticality; delivery of the first SAP Fiori applications; maintenance (3rd Level Support); oversight of nearshore & offshore development;"
       },
       {
         "company": "msg systems Romania - Cluj-Napoca, RO",
         "title": "SAP-ABAP Software Engineer",
         "years": "Mar 2015 - Jan 2019",
-        "description": "SAP ERP/DIMP 6.0 and S4/HANA consulting with a focus on: agile full-stack custom development; maintenance (3rd Level Support); onboarding and mentoring junior developers;"
+        "description": "SAP ERP/DIMP 6.0 and S4/HANA consulting with focus on: agile full-stack custom development; maintenance (3rd Level Support); onboarding and mentoring junior developers;"
       },
       {
         "company": "msg systems Romania - Cluj-Napoca, RO",
         "title": "Associate Java Developer",
         "years": "Aug 2014 - Mar 2015",
-        "description": "JEE development with a focus on: getting familiar with the software development life cycle; front-End development; waterfall model;"
+        "description": "JEE development with focus on: getting familiar with the software development life cycle; front-End development; waterfall model;"
       },
       {
         "company": "msg systems Romania - Cluj-Napoca, RO",
         "title": "Java Trainee - Internship Program",
         "years": "Jul 2014 - Aug 2014",
-        "description": "JEE development with a focus on: learning the basics, working in team;"
+        "description": "JEE development with focus on: learning the basics, working in team;"
       }
     ],
     "skillsTech": [
@@ -85,17 +92,17 @@
         "color": "#e60000"
       },
       {
-        "title": "Fiori",
+        "title": "SAP Fiori/UI5",
         "value": 96,
         "color": "#cc0000"
       },
       {
-        "title": "SAP Hana",
+        "title": "SAP S4/HANA",
         "value": 96,
         "color": "#b30000"
       },
       {
-        "title": "UI5 / Javascript",
+        "title": "Javascript",
         "value": 70,
         "color": "#990000"
       },
