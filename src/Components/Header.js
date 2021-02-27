@@ -8,7 +8,7 @@ class Header extends Component {
       var cheers = this.props.data.cheers;
       var occupation = this.props.data.occupation;
       var description = this.props.data.description;
-      var city = this.props.data.address.city;
+      var city = this.props.data.address.titleCity;
       var networks = this.props.data.social.map(function (network) {
         return (
           <li key={network.name}>
