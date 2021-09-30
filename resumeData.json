@@ -16,7 +16,7 @@
       "titleCity": "Munich"
     },
     "website": "http://adorjan-szasz.github.io",
-    "resumedownload": "https://drive.google.com/file/d/1SEqoZUbfWo6G8SEf4o8uzj3bPCqf3h8i/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1YBHJyRc7woaCZYc6rIehe2zT2q984svF/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -58,7 +58,7 @@
         "company": "SAP SE - Hallbergmoos, DE",
         "title": "Senior Developer",
         "years": "Nov 2020 - Present",
-        "description": "S4/HANA On-Premise and Cloud in-house development focusing on: processes in the area of Logistics Execution | SAP Digital Supply Chain; customer support; mentorship;"
+        "description": "S/4HANA On-Premise and Cloud standard development focusing on: processes in the area of Logistics Execution | SAP Digital Supply Chain; customer support; mentorship;"
       },
       {
         "company": "msg systems ag - Munich, DE",
@@ -70,7 +70,7 @@
         "company": "msg systems Romania - Cluj-Napoca, RO",
         "title": "SAP-ABAP Software Engineer",
         "years": "Mar 2015 - Jan 2019",
-        "description": "SAP ERP/DIMP 6.0 and S4/HANA consulting with focus on: agile full-stack custom development; maintenance (3rd Level Support); onboarding and mentoring junior developers;"
+        "description": "SAP ERP/DIMP 6.0 and S/4HANA consulting with focus on: agile full-stack custom development; maintenance (3rd Level Support); onboarding and mentoring junior developers;"
       },
       {
         "company": "msg systems Romania - Cluj-Napoca, RO",
@@ -97,7 +97,7 @@
         "color": "#cc0000"
       },
       {
-        "title": "SAP S4/HANA",
+        "title": "SAP S/4HANA",
         "value": 96,
         "color": "#b30000"
       },
